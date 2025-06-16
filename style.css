@@ -146,6 +146,17 @@ option:before {
     filter: drop-shadow(0 0 15px #6DDBFA);
     height: auto;
 }
+.sideCode{
+    z-index: 5;
+    position: absolute;
+    right: -130px;
+    transform: rotate(-90deg);
+    text-align: right;
+    font-weight:500;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.8;
+}
 /*==================================================================*/
 .text{
     font-size: 17px;
@@ -212,6 +223,18 @@ html body .container form select{
     width: 30px;
     height: 30px;
 }
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
+}
 .text{
     font-size: 12px;
     padding: 10px;
@@ -264,6 +287,18 @@ html body .container form select{
 .btn img{
     width: 30px;
     height: 30px;
+}
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
 }
 .text{
     font-size: 12px;
@@ -320,6 +355,18 @@ html body .container form select{
     width: 30px;
     height: 30px;
 }
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
+}
 .text{
     font-size: 12px;
     padding: 10px;
@@ -375,6 +422,18 @@ html body .container form select{
     gap: 50px;
     margin-top: 10px;
     padding: 20px;
+}
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
 }
 .btn img{
     width: 30px;
@@ -435,6 +494,18 @@ html body .container form select{
     width: 30px;
     height: 30px;
 }
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
+}
 .text{
     font-size: 12px;
     padding: 10px;
@@ -489,6 +560,18 @@ html body .container form select{
 .btn img{
     width: 40px;
     height: 40px;
+}
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
 }
 .text{
     font-size: 12px;
@@ -545,6 +628,18 @@ html body .container form select{
     width: 40px;
     height: 40px;
 }
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
+}
 .text{
     font-size: 14px;
     padding: 10px;
@@ -599,6 +694,18 @@ html body .container form select{
 .btn img{
     width: 40px;
     height: 40px;
+}
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
 }
 .text{
     font-size: 14px;
@@ -655,6 +762,18 @@ html body .container form select{
     width: 40px;
     height: 40px;
 }
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
+}
 .text{
     font-size: 14px;
     padding: 10px;
@@ -710,6 +829,18 @@ html body .container form select{
     width: 40px;
     height: 40px;
 }
+.btn {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap: 22px;
+    align-items:flex-end;
+}
+.sideCode{
+    position:static;
+    transform: rotate(0deg);
+    font-size: 12px;
+}
 .text{
     font-size: 14px;
     padding: 10px;
@@ -739,6 +870,9 @@ select{
     width: 40px;
     height: 40px;
 }
+.sideCode{
+    right: -100px;
+}
 .text{
     font-size: 14px;
     padding: 10px;
@@ -749,7 +883,7 @@ footer{
 }
 }
 
-@media screen and (min-width:1050px) and (max-width:1300px){
+@media screen and (min-width:1050px) and (max-width:1400px){
 body .all_form{
     margin-top: 115%;
 }
